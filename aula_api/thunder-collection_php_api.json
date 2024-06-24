@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "php_api",
+    "dateExported": "2024-06-24T11:05:10.352Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fcfe2e76-fd18-4805-8a2b-4676feebf7eb",
+            "colId": "35e5a37c-bfb6-48bb-ac73-3e5539751771",
+            "containerId": "",
+            "name": "verifica_status",
+            "url": "http://localhost/aula_api/app/status/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-24T10:56:49.069Z",
+            "modified": "2024-06-24T10:58:25.903Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a5a0793b-ab0e-431b-8238-356306b018b5",
+            "colId": "35e5a37c-bfb6-48bb-ac73-3e5539751771",
+            "containerId": "",
+            "name": "get_dados",
+            "url": "http://localhost/aula_api/app/get_all_data/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-24T10:57:05.225Z",
+            "modified": "2024-06-24T10:58:42.084Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5051835e-ad95-439f-a601-168196a23493",
+            "colId": "35e5a37c-bfb6-48bb-ac73-3e5539751771",
+            "containerId": "",
+            "name": "get_nomes",
+            "url": "http://localhost/aula_api/app/get_all_name/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-24T10:57:19.413Z",
+            "modified": "2024-06-24T10:59:28.126Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d1b04708-5778-43b5-94c5-ac93656a5766",
+            "colId": "35e5a37c-bfb6-48bb-ac73-3e5539751771",
+            "containerId": "",
+            "name": "get_total_registros",
+            "url": "http://localhost/aula_api/app/get_total_records/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-24T10:57:34.612Z",
+            "modified": "2024-06-24T10:59:45.321Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "446f263c-f825-40c9-9a11-f59707ddcdcc",
+            "colId": "35e5a37c-bfb6-48bb-ac73-3e5539751771",
+            "containerId": "",
+            "name": "get_um_cliente",
+            "url": "http://localhost/aula_api/app/get_um_cliente?id=1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-24T10:57:48.895Z",
+            "modified": "2024-06-24T11:00:00.576Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

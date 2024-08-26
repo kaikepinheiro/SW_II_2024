@@ -9,7 +9,7 @@
     if($conexao->connect_error){
         die('Falha de conexão: ' . $conexao->connect_error);
     }
-     //else{
-         //echo "CONECTADO COM SUCESSO";
-     //}
+    // else{
+    //     echo "CONECTADO COM SUCESSO";
+    // }
 ?>
